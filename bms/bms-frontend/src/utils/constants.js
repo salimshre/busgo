@@ -1,12 +1,12 @@
-import banner1 from "../assets/banner1.jpg";
-import banner2 from "../assets/banner2.avif";
-import banner3 from "../assets/banner3.avif";
-import banner4 from "../assets/banner4.avif";
-import m1 from "../assets/m1.avif";
-import m2 from "../assets/m2.avif";
-import m3 from "../assets/m3.avif";
-import m4 from "../assets/m4.avif";
-import m5 from "../assets/m5.avif";
+import banner1 from "../assets/banner1nep.jpeg";
+import banner2 from "../assets/banner2nep.png";
+import banner3 from "../assets/banner3nep.png";
+import banner4 from "../assets/banner4nep.png";
+import m1 from "../assets/m1.png";
+import m2 from "../assets/m2.png";
+import m3 from "../assets/m3.png";
+import m4 from "../assets/m4.png";
+import m5 from "../assets/m5.png";
 import m6 from "../assets/m6.avif";
 import m7 from "../assets/m7.avif";
 import m8 from "../assets/m8.avif";
@@ -36,90 +36,51 @@ export const languages = [
 
 export const banners = [banner1, banner2, banner3, banner4];
 
-export const movies = [
+export const buses = [
   {
     id: 1,
-    title: "Maa",
-    genre: "Fantasy/Horror/Mythological/Thriller",
-    rating: 7.2,
-    votes: "2.7K",
+    title: "Sajha Yatayat",
+    genre: "City Bus / Public Transport",
+    rating: 4.5,
+    votes: "12.3K",
     img: m1,
     promoted: true,
   },
   {
     id: 2,
-    title: "Kannappa",
-    genre: "Action/Drama/Fantasy/Period",
-    rating: 7.3,
-    votes: "10.7K",
+    title: "Deluxe Pokhara Express",
+    genre: "Tourist Bus / Long Route",
+    rating: 4.8,
+    votes: "8.7K",
     img: m2,
     promoted: true,
   },
   {
     id: 3,
-    title: "Mission: Impossible - The Final Reckoning",
-    genre: "Action/Adventure/Thriller",
-    rating: 8.6,
-    votes: "84.1K",
+    title: "Araniko Highway Express",
+    genre: "Long Route / Mountain Highway",
+    rating: 4.6,
+    votes: "5.2K",
     img: m3,
   },
   {
     id: 4,
-    title: "F1: The Movie",
-    genre: "Action/Drama/Sports",
-    rating: 9.5,
-    votes: "6.8K",
+    title: "Everest Deluxe Night Coach",
+    genre: "Night Bus / Premium Service",
+    rating: 4.9,
+    votes: "9.1K",
     img: m4,
   },
   {
     id: 5,
-    title: "From the World of John Wick: Ballerina",
-    genre: "Action/Thriller",
-    rating: 8.7,
-    votes: "15.2K",
+    title: "Lumbini Tourist Coach",
+    genre: "AC Tourist / Intercity",
+    rating: 4.7,
+    votes: "6.4K",
     img: m5,
   },
-  //  {
-  //     "id": 6,
-  //     "title": "M3GAN 2.0",
-  //     "genre": "Horror/Sci-Fi/Thriller",
-  //     "rating": 8.4,
-  //     "votes": "117",
-  //     "img": m6
-  //   },
-  //   {
-  //     "id": 7,
-  //     "title": "Housefull 5",
-  //     "genre": "Comedy/Thriller",
-  //     "rating": 6.1,
-  //     "votes": "56.3K",
-  //     "img": m7
-  //   },
-  //   {
-  //     "id": 8,
-  //     "title": "Sitaare Zameen Par",
-  //     "genre": "Comedy/Drama/Sports",
-  //     "rating": 8.5,
-  //     "votes": "39.6K",
-  //     "img": m8
-  //   },
-  //   {
-  //     "id": 9,
-  //     "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
-  //     "genre": "Action/Adventure/Animation/Comedy",
-  //     "rating": 9.6,
-  //     "votes": "51",
-  //     "img": m9
-  //   },
-  //   {
-  //     "id": 10,
-  //     "title": "28 Years Later",
-  //     "genre": "Horror/Thriller",
-  //     "rating": 7.9,
-  //     "votes": "3.7K",
-  //     "img": m10
-  //   }
 ];
+
 
 export const allMovies = [
   {
