@@ -12,7 +12,7 @@ const BusFilters = () => {
           <button className='text-[#f74362]'>Clear</button>
         </div>
 
-        
+
           {/* language options placeholder */}
         </div>
 
@@ -28,9 +28,6 @@ const BusFilters = () => {
             }
 
         </div>
-
-
-
       </div>
   );
 };

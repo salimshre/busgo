@@ -26,12 +26,7 @@ import cinepolis from "../assets/cinepolis.avif";
 export const languages = [
   "Hindi",
   "English",
-  "English 7D",
-  "Bengali",
-  "Punjabi",
-  "Tamil",
-  "Japanese",
-  "Telugu",
+  "Nepali",
 ];
 
 export const banners = [banner1, banner2, banner3, banner4];
