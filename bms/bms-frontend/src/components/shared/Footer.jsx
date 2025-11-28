@@ -17,7 +17,7 @@ const Footer = () => {
         <FaYoutube className="w-8 h-8 p-2 rounded-full bg-gray-700 text-white"/>
         <FaPinterestP className="w-8 h-8 p-2 rounded-full bg-gray-700 text-white"/>
         <FaLinkedinIn className="w-8 h-8 p-2 rounded-full bg-gray-700 text-white"/>
-        
+
       </div>
 
       {/*copyright*/}
