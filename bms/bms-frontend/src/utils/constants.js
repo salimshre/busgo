@@ -7,11 +7,11 @@ import m2 from "../assets/m2.png";
 import m3 from "../assets/m3.png";
 import m4 from "../assets/m4.png";
 import m5 from "../assets/m5.png";
-import m6 from "../assets/m6.avif";
-import m7 from "../assets/m7.avif";
-import m8 from "../assets/m8.avif";
-import m9 from "../assets/m9.avif";
-import m10 from "../assets/m10.avif";
+import m6 from "../assets/m6.png";
+import m7 from "../assets/m7.png";
+import m8 from "../assets/m8.png";
+import m9 from "../assets/m9.png";
+import m10 from "../assets/m10.png";
 import m11 from "../assets/m11.avif";
 import m12 from "../assets/m12.avif";
 import e1 from "../assets/e1.avif";
@@ -77,110 +77,104 @@ export const buses = [
 ];
 
 
-export const allMovies = [
+export const allBus = [
   {
     id: 1,
-    title: "Maa",
-    genre: "Fantasy/Horror/Mythological/Thriller",
-    rating: 7.2,
-    votes: "2.7K",
+    title: "Sajha Yatayat",
+    genre: "City Bus / Public Transport",
+    rating: 4.5,
+    votes: "12.3K",
     img: m1,
     promoted: true,
-    languages: "Hindi",
-    age: "UA16+",
   },
   {
     id: 2,
-    title: "Kannappa",
-    genre: "Action/Drama/Fantasy/Period",
-    rating: 7.3,
-    votes: "10.7K",
+    title: "Deluxe Pokhara Express",
+    genre: "Tourist Bus / Long Route",
+    rating: 4.8,
+    votes: "8.7K",
     img: m2,
     promoted: true,
-    languages: "Telugu, Hindi, Tamil, Malayalam",
-    age: "UA13+",
   },
   {
     id: 3,
-    title: "Mission: Impossible - The Final Reckoning",
-    genre: "Action/Adventure/Thriller",
-    rating: 8.6,
-    votes: "84.1K",
+    title: "Araniko Highway Express",
+    genre: "Long Route / Mountain Highway",
+    rating: 4.6,
+    votes: "5.2K",
     img: m3,
-    languages: "English, Hindi, Telugu, Tamil",
-    age: "UA13+",
   },
   {
     id: 4,
-    title: "F1: The Movie",
-    genre: "Action/Drama/Sports",
-    rating: 9.5,
-    votes: "6.8K",
+    title: "Everest Deluxe Night Coach",
+    genre: "Night Bus / Premium Service",
+    rating: 4.9,
+    votes: "9.1K",
     img: m4,
-    languages: "English, Hindi, Tamil, Telugu",
-    age: "UA16+",
   },
   {
     id: 5,
-    title: "From the World of John Wick: Ballerina",
-    genre: "Action/Thriller",
-    rating: 8.7,
-    votes: "15.2K",
+    title: "Lumbini Tourist Coach",
+    genre: "AC Tourist / Intercity",
+    rating: 4.7,
+    votes: "6.4K",
     img: m5,
-    languages: "English",
-    age: "A",
   },
+
   {
     id: 6,
-    title: "M3GAN 2.0",
-    genre: "Horror/Sci-Fi/Thriller",
-    rating: 8.4,
-    votes: "117",
+    title: "Shine Nepal Yatayat",
+    genre: "Deluxe / Kathmandu–Pokhara",
+    rating: 4.8,
+    votes: "4.1K",
     img: m6,
-    languages: "English, Hindi",
-    age: "UA16+",
+    languages: "Nepali, English",
+    age: "All",
   },
   {
     id: 7,
-    title: "Housefull 5",
-    genre: "Comedy/Thriller",
-    rating: 6.1,
-    votes: "56.3K",
+    title: "Makalu Deluxe Bus Service",
+    genre: "Super Deluxe / Kathmandu–Biratnagar",
+    rating: 4.7,
+    votes: "3.9K",
     img: m7,
-    languages: "Hindi",
-    age: "U",
+    languages: "Nepali",
+    age: "All",
   },
   {
     id: 8,
-    title: "Sitaare Zameen Par",
-    genre: "Comedy/Drama/Sports",
-    rating: 8.5,
-    votes: "39.6K",
+    title: "Greenline Tourist Coach",
+    genre: "Tourist AC / Kathmandu–Chitwan",
+    rating: 4.9,
+    votes: "6.2K",
     img: m8,
-    languages: "Hindi",
-    age: "U",
+    languages: "Nepali, English",
+    age: "All",
   },
   {
     id: 9,
-    title: "Naruto the Movie: Ninja Clash in the Land of Snow",
-    genre: "Action/Adventure/Animation/Comedy",
-    rating: 9.6,
-    votes: "51",
+    title: "Himalayan Highway Express",
+    genre: "Mountain Route / Dolakha–Kathmandu",
+    rating: 4.6,
+    votes: "2.3K",
     img: m9,
-    languages: "Japanese, Hindi",
-    age: "UA",
+    languages: "Nepali",
+    age: "All",
   },
   {
     id: 10,
-    title: "28 Years Later",
-    genre: "Horror/Thriller",
-    rating: 7.9,
-    votes: "3.7K",
+    title: "Buddha Deluxe Night Coach",
+    genre: "Night Bus / Kathmandu–Butwal",
+    rating: 4.8,
+    votes: "5.5K",
     img: m10,
-    languages: "English",
-    age: "A",
+    languages: "Nepali",
+    age: "All",
   },
+
+
 ];
+
 
 export const events = [
   {
