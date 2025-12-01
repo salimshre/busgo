@@ -1,5 +1,5 @@
 import React from 'react';
-import { languages, buses } from '../../utils/constants';
+import { languages, allBus } from '../../utils/constants';
 import BusCard from './BusCard';
 
 const BusList = () => {
@@ -7,8 +7,8 @@ const BusList = () => {
         <div className='w-full md:w-3/4 p-4'>
             <div className='flex flex-wrap gap-2 mb-4'>
                 {
-                    languages.map((lang) => (
-                        <span key={lang} className='bg-white border border-gray-200 text-[#f74362] py-1 px-3 rounded-[24px] text-sm cursor-pointer hover:bg-gray-100'>
+                    languages.map((lang, i) => (
+                        <span key={i} className='bg-white border border-gray-200 text-[#f74362] py-1 px-3 rounded-[24px] text-sm cursor-pointer hover:bg-gray-100'>
                             {lang}
                         </span>
                     ))
@@ -25,8 +25,8 @@ const BusList = () => {
             <div className='flex flex-wrap gap-6'>
                 {/*buses card*/}
                 {
-                    buses.map((bus) => (
-                        <BusCard key={bus.id} bus={bus}/>
+                    allBus.map((bus, i) => (
+                        <BusCard key={i} bus={bus}/>
                     ))
                 }
             </div>
