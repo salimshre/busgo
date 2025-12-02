@@ -35,7 +35,7 @@ const BusDetails = () => {
                 <div className='absolute inset-0 bg-black opacity-70' />
                 
                 {/* Actual Content */}
-                <div className='relative z-10'>
+                <div className='relative z-10 max-w-7xl mx-auto flex flex-col'>
                     {/* Poster */}
                     <div>
                         <img src={bus.img} alt={bus.title} className='rounded-xl w-52 shadow-xl' />                       
@@ -96,7 +96,6 @@ const BusDetails = () => {
                             51-.31 2.04-.8117.13 4.21c-.06.24-.1.49-.1.75 0 1.66 1.34 3 3 353-1.34
                             3-3-1.34-3-3-32" />
                         </svg>
-
                             Share
                         </button>
                     </div>
