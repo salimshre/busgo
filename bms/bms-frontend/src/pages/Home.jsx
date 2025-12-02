@@ -1,4 +1,3 @@
-
 import BannerSlider from "../components/shared/BannerSlider";
 import Recommended from "../components/Recommended";
 import LiveEvents from "../components/LiveEvents";

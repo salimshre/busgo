@@ -14,7 +14,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             
-            
             <Route path="/profile/:id" element={<h1>Profile Page</h1>} />
             <Route path="/bus" element={<Bus />} />
             <Route path="/bus/:busId" element={<BusDetails />} />
